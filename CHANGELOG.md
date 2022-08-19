@@ -1,3 +1,26 @@
+## 0.5.2
+* Revert the IOException change which causes compiling error on new Android Studio
+* Bump to 0.5.2
+
+## 0.5.1
+* Add IOException for Android (Thanks k1zerX)
+* Fix boolean value issue and enlarge the time window (Thanks niketatjombay) 
+* Bump to 0.5.1
+
+## 0.5.0
+
+* Make the `thumbnailFile` to save image in the cache folder if the `path` is `null` for not file based video
+* Add HTTP headers for not file based video
+* Bump to 0.5.0
+
+## 0.4.6
+
+* Thanks for julek-kal, Nailer, nilsreichardt
+* fix setDataSource for Android 11
+* Fetch closest frame instead of closest keyframe
+* Fix typo specify in video_thumbnail.dart
+* Change version and bump to 0.4.6
+
 ## 0.4.3
 
 * Migrate to flutter embedding v2 for Android ( Thanks wangbo4020 )
